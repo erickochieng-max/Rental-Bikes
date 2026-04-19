@@ -1,0 +1,36 @@
+/*General Styling*/
+body{
+    font-family: system-ui,Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans';
+    color: white;
+    text-align: center;
+    margin: 0;
+    background-color:black;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+ul{
+    text-align: left;
+}
+ol{
+    text-align: left;
+}
+form{
+    text-align: left;
+}
+.container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.card{
+    background-color: white;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid black;
+}
+/*Pseudo-class*/
+.card:hover{
+    background-color: lightgrey;
+}
